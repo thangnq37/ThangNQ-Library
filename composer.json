@@ -1,0 +1,22 @@
+{
+    "name": "thangnq37/php-library",
+    "description": "My first packagist package",
+    "type": "package",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Nguyễn Quốc Thắng",
+            "email": "nguyenquocthang.dev@gmail.com",
+            "homepage": "http://yourhomepage-if-you-have.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "thangnq37\\phpLibrary\\": "src/"
+        }
+    }
+}
